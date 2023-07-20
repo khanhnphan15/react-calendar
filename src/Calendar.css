@@ -1,0 +1,16 @@
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Each column will have equal width */
+    grid-auto-rows: 1fr; /* Each row will have equal height */
+    gap: 10px;
+  }
+  
+  .calendar .calendar-day {
+    background-color: coral;
+    height: 50px;
+    border-radius: 6px;
+    color: white;
+    padding: 10px;
+  
+  }
+  
